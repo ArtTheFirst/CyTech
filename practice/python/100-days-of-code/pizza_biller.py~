@@ -28,15 +28,11 @@ elif size_cut == "m":
     if add_pepperoni.lower() == "y":
         bill_with_pepperoni += 3
 
-elif size_cut == "l":
-    pizza_price = 25
-
+    elif size_cut == "l":
+        pizza_price = 25
     if add_pepperoni.lower() == "y":
         bill_with_pepperoni += 3
-
 if extra_cheese.lower() == "y":
     bill_with_cheese += 1
-
 final_bill = pizza_price + bill_with_pepperoni + bill_with_cheese
-
 print(f"Your final bill is: ${final_bill}.")
