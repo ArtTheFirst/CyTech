@@ -1,1 +1,1 @@
-my 100 days of python code practice.
+100 days of python code practice.
